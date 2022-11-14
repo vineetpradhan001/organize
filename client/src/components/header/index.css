@@ -1,0 +1,15 @@
+header {
+  padding: 0.6rem 5.5vw;
+}
+.header__title {
+  display: flex;
+  gap: 0.2rem;
+  align-items: flex-end;
+}
+.header__title > img {
+  height: 35px;
+}
+.header__title > span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}

@@ -1,0 +1,16 @@
+.todo {
+  gap: 0.5rem;
+}
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  gap: 1.5px;
+  padding: 1.5px;
+  border-radius: 0.15rem;
+  overflow: auto;
+}
+.todo-list-empty {
+  display: flex;
+  flex-grow: 1;
+}

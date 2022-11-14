@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  cursor: default;
+  font-family: "Space Grotesk", sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 5.5vw;
+  flex-grow: 1;
+  overflow: hidden;
+}
+button {
+  transition: 0.15s;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  border: 3px solid;
+  font-size: 0.9rem;
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+button:hover {
+  transition: 0.15s;
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+}
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+}
+input,
+textarea {
+  transition: 0.15s;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  padding: 0.25rem 0.35rem;
+  border: 3px solid #676767;
+  border-radius: 0.25rem;
+  outline: none;
+}
+input:focus-visible,
+textarea:focus-visible {
+  transition: 0.15s;
+  border: 3px solid;
+}
+.error {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: red;
+}
+.fab {
+  border-radius: 50%;
+  padding: 0.35rem;
+  display: flex;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 35px;
+  right: 27px;
+}

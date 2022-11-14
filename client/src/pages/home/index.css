@@ -1,0 +1,7 @@
+.home {
+  justify-content: center;
+  align-items: center;
+}
+.home__button {
+  padding: 0.4rem 0.7rem;
+}

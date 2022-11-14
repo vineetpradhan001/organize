@@ -1,0 +1,24 @@
+.todo-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  background-color: white;
+  padding: 0.5rem;
+}
+.todo-input .date-picker {
+  transition: 0.15s;
+  border: 3px solid #676767;
+  border-radius: 0.25rem;
+  width: fit-content;
+  padding: 0.1rem 0.35rem;
+}
+.todo-input .date-picker:hover {
+  transition: 0.15s;
+  border: 3px solid;
+}
+.todo-input .button-group {
+  margin-left: auto;
+}
+.todo-input button {
+  justify-self: flex-end;
+}

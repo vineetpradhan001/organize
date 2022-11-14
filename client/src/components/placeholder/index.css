@@ -1,0 +1,16 @@
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
+  flex-grow: 1;
+}
+.placeholder > img {
+  height: 200px;
+}
+.placeholder > span {
+  font-weight: 500;
+  font-size: 1.1rem;
+}

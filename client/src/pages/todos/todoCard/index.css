@@ -1,0 +1,34 @@
+.todo-card {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background-color: white;
+  padding: 0.5rem;
+}
+.todo-card__checkbox {
+  border: 3px solid;
+  height: 15px;
+  width: 15px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-card__title {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+.todo-card__title > span:nth-child(2) {
+  font-size: 0.8rem;
+  color: grey;
+}
+.todo-card__edit {
+  margin-left: auto;
+  display: flex;
+  gap: 0.4rem;
+}
+.todo-card__edit > span {
+  font-size: 1.4rem;
+}
